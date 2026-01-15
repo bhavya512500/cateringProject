@@ -1,0 +1,49 @@
+.menuCont {
+  margin-top: 100px;
+}
+.menuCont h1 {
+  font-size: 30px;
+  font-weight: 100;
+}
+.menuCont .singleBottomLine {
+  border-top: 1px solid grey;
+}
+.menuCard .categoryDiv p {
+  font-size: 14px;
+}
+.menuCard h1 {
+  font-size: 20px;
+}
+.menuCard .categoryDiv {
+  width: 120px;
+}
+.menuCont .menuList h1 {
+  font-size: 18px;
+  font-weight: 100;
+}
+.menuCont .menuList h5 {
+  font-size: 15px;
+  font-weight: 400;
+}
+.menuCont .rowLast{
+    margin-bottom: 100vh;
+}
+@media (max-width: 425px) {
+  .menuCont .menuCard {
+    border: 1px solid rgb(216, 214, 214);
+    border-radius: 10px;
+  }
+  .menuCard h1 {
+    text-align: center;
+  }
+  .menuList{
+    border: 1px solid rgb(216, 214, 214);
+    border-radius: 10px;
+  }
+  .menuCont .menuList h1{
+font-size: 20px;
+  }
+  .menuCont .rowLast{
+    margin-bottom: 80vh;
+}
+}

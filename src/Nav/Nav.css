@@ -1,0 +1,29 @@
+.navbar-brand {
+  /* padding-left: 60px; */
+}
+li {
+  width: 150px;
+  text-align: center;
+}
+.nav-link:hover {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+.navRow nav{
+    background: transparent;
+    backdrop-filter: blur(2px);
+  position: fixed;
+}
+.navRow .navBrand{
+  font-size: 16px;
+}
+#signUpBtn{
+  color: #fff;
+  background-color: rgb(163, 129, 101);
+  border-radius: 8px;
+  border: none;
+}
+#signUpBtn:hover{
+  background-color: rgb(148, 118, 93);
+
+}

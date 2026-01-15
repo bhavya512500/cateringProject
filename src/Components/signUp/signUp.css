@@ -1,0 +1,73 @@
+:root {
+  --bs-backdrop-opacity: 0.5;
+}
+#modal {
+  background-color: rgb(173, 130, 95);
+}
+#modal:first-child {
+  /* background-color: rgb(173, 130, 95); */
+  border-radius: 5px 0 0 0;
+}
+#modal:last-child {
+  border-radius: 0 0 0 5px;
+}
+#Modal {
+  max-width: 60vw;
+  padding: 0;
+}
+.imgCol {
+  /* opacity: 0.85; */
+  filter: brightness(70%);
+  border-radius: 0 5px 5px 0;
+}
+.modalDiv {
+  background-color: rgba(196, 190, 190, 0.726);
+}
+.modal .modalHeading {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 400;
+}
+.inpDiv {
+}
+.modal .inpDiv .inp {
+  width: 260px;
+  height: 40px;
+  border-radius: 5px;
+}
+#SignUpbtn {
+  background-color: rgb(100, 61, 34);
+  border-radius: 5px;
+}
+#SignUpbtn Button {
+  width: 100%;
+  background-color: rgb(100, 61, 34);
+  border: 1px solid rgb(100, 61, 34);
+}
+@media (max-width: 425px) {
+  #Modal {
+    max-width: 100vw;
+    text-align: center;
+    /* padding-left: 50px; */
+    margin-left: 45px;
+  }
+
+  .imgCol {
+    /* padding: 10px; */
+    display: none;
+  }
+  .modalDiv #modal {
+    display: none;
+    background-color: red;
+  }
+}
+@media (max-width: 768px) {
+  #Modal {
+    max-width: 80vw;
+    /* padding: 0; */
+  }
+  .DivImg {
+    /* padding: 10px; */
+    /* display: none; */
+  }
+}

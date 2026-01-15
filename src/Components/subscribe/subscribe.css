@@ -1,0 +1,36 @@
+.rowOne h1{
+    font-size: 30px;
+    font-weight: 100;
+}
+.rowOne h6{
+    font-size: 16px;
+    font-weight: 100;
+}
+.stayConnect h1{
+    font-size: 22px ;
+    font-weight: 100;
+}
+.anchorLink{
+   color: black;
+}
+.subscribePara p{
+    font-size: 16px;
+}
+.rowSubmit{
+    margin-bottom: 100px;
+}
+.colLast{
+    margin-bottom: 100px;
+}
+.colLast p{
+    font-size: 14px;
+}
+@media(max-width:425px){
+  .rowOne h6{
+    font-size: 14px;
+    font-weight: 100;
+}  
+.links .anchorLink{
+    font-size: 14px;
+}
+}

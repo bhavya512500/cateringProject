@@ -1,0 +1,41 @@
+.servicesCont{
+    margin-top: 100px;
+}
+.servicesCont .singleBottomLine{
+  width: 85%;
+  border-bottom: 0.75px solid black;
+}
+.servicesCont .rowTwo{
+  margin-top: 130px;
+}
+.heading h1{
+font-size: 80px;
+font-weight: 100;
+}
+.servicesCont h1{
+  font-size: 40px;
+  font-weight: 100;
+}
+.servicesCont h6{
+  font-weight: 400;
+  font-size: 16px;
+}
+.servicesCont .rowLast{
+  margin-bottom: 100vh;
+}
+@media (max-width: 768px) {
+  .heading h1{
+    font-size: 40px;
+  }
+  .servicesCont h6{
+  font-size: 16px;
+}
+}
+@media (max-width:425px){
+  .rowTwo{
+    margin-top: 8vh;
+  }
+  .rowLast img{
+    height: 50vh;
+  }
+}
