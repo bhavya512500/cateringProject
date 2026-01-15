@@ -36,6 +36,14 @@ font-weight: 100;
     margin-top: 8vh;
   }
   .rowLast img{
-    height: 50vh;
+    /* height: 50vh; */
   }
+}
+@media (max-width:320px){
+  .heading h1{
+    font-size: 35px;
+  }
+.servicesCont .rowLast{
+  margin-bottom: 20vh;
+}
 }

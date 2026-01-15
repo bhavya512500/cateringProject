@@ -14,3 +14,11 @@
 .contactCont .form input{
     width: 100%;
 }
+@media(max-width:425px){
+    .contactCont h1{
+        font-size: 35px;
+    }
+    .contactCont .form{
+    margin-bottom: 20vh;
+}
+}

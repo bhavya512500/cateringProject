@@ -29,7 +29,7 @@ const AboutUs = () => {
           </div>
           <div className="col-lg-6 mt-lg-0 mt-4 mb-5 mb-md-0 rowOne text-center  d-flex align-items-center justify-content-center flex-column">
             <h5>Exquisite Catering Services for Weddings</h5>
-            <h1 className="taste ">TASTE THE PERFECTION</h1>
+            <h1 className="taste " id="taste">TASTE THE PERFECTION</h1>
             <button id="btn">Learn More</button>
           </div>
         </div>
@@ -127,10 +127,10 @@ const AboutUs = () => {
             <h4 className="mx-lg-5 comH4Font">Exceptional Customer Care</h4>
           </div>
         </div>
-        <div className="container contactCont  p-0">
+        <div className="container contactCont  p-0 mt-5">
           <div className="row p-2 p-md-0 d-lg-flex justify-content-lg-between">
             <div className="col-lg-5 ">
-              <h1 className="contactH1">CONTACT US</h1>
+              <h1 className="contactH1" id="contact">CONTACT US</h1>
               <h6 className="mx-md-2 my-5 my-md-0">Get In Touch</h6>
             </div>
             <div className="col-lg-5  enquirycol d-flex justify-content-lg-end align-self-start">
