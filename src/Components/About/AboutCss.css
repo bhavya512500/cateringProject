@@ -204,8 +204,16 @@ input {
   .comH4Font {
     font-size: 14px;
   }
+     .imgDiv {
+  width: 380px;
+  height: 420px;
+  margin: 0 auto ;
+}
   .imgDivThree {
-    width: 297px;
+    width: 380px;
+    height: 420px;
+  margin: 0 auto ;
+
   }
   .contactCont .contactH1 {
     font-size: 40px;
@@ -214,4 +222,19 @@ input {
     margin-top: 0;
     margin-bottom: 60vh;
   }
+ 
 }
+@media(max-width:320px){
+   .imgDiv {
+  width: 275px;
+  height: 350px;
+}
+.imgDivThree{
+  width: 275px;
+text-align: center;
+}
+#chooseUs{
+  font-size: 30px;
+}
+}
+

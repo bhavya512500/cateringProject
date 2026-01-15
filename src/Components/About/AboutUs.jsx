@@ -77,7 +77,7 @@ const AboutUs = () => {
             </h5>
             <h6 className="mt-lg-5 mt-4">Emily Johnson</h6>
           </div>
-          <div className="ol-lg-4 mt-4 mt-lg-0 desBox p-3 p-md-0">
+          <div className="col-lg-4 mt-4 mt-lg-0 desBox p-3 p-md-0">
             <h5>
               ״The attention to detail in every dish was <br></br>outstanding.
               Our guests are still raving{" "}
@@ -86,7 +86,7 @@ const AboutUs = () => {
             <h6 className="mt-lg-5 mt-4 ">Michael Smith</h6>
           </div>
         </div>
-        <h1 className="about p-3 p-md-0 mt-5 mt-md-0">WHY CHOOSE US</h1>
+        <h1 className="about p-3 p-md-0 mt-5 mt-md-0 " id="chooseUs">WHY CHOOSE US</h1>
         <div className="row d-flex justify-content-lg-between mt-3 mt-md-4 p-4 p-lg-0 ">
           <div className="col-lg-4  p-0">
             <div className="mb-lg-4  imgDiv">

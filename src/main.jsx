@@ -9,6 +9,7 @@ import './Components/contact/contact.css'
 import './Components/menu/menu.css'
 import './Components/subscribe/subscribe.css'
 import './Components/signUp/signUp.css'
+import './App.css'
 import "bootstrap/dist/css/bootstrap.min.css"
 import "bootstrap/dist/js/bootstrap.min.js"
 import { Provider } from 'react-redux'

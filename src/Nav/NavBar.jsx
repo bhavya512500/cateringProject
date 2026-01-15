@@ -74,6 +74,15 @@ const NavBar = () => {
                 </li>
                 <div>
                   <Button
+                    className="btn d-block d-md-none "
+                    id="signUpBtn"
+                    onClick={() => dispatch(handleShow())}
+                  >
+                    Sign Up{" "}
+                  </Button>
+                </div>
+                <div>
+                  <Button
                     className="btn "
                     id="signUpBtn"
                     onClick={() => dispatch(handleShow())}
@@ -84,7 +93,7 @@ const NavBar = () => {
 
                 <li className="nav-item mx-lg-3">
                   <Link
-                    className="nav-link"
+                    className="nav-link d-none"
                     to="/admin"
                     style={{ color: "black" }}
                   >
