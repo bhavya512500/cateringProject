@@ -72,7 +72,7 @@ const NavBar = () => {
                     Menus
                   </Link>
                 </li>
-                <div>
+                {/* <div>
                   <Button
                     className="btn d-block d-md-none "
                     id="signUpBtn"
@@ -80,7 +80,7 @@ const NavBar = () => {
                   >
                     Sign Up{" "}
                   </Button>
-                </div>
+                </div> */}
                 <div>
                   <Button
                     className="btn "
